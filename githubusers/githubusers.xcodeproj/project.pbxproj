@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4446299E258BDE9F000464F0 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446299D258BDE9F000464F0 /* CoreDataStack.swift */; };
+		444629AD258BF332000464F0 /* GHUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444629AB258BF332000464F0 /* GHUser+CoreDataClass.swift */; };
+		444629BF258BF418000464F0 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444629BE258BF418000464F0 /* ListVC.swift */; };
 		44AAF3EA258B91D60047FF12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF3E9258B91D60047FF12 /* AppDelegate.swift */; };
 		44AAF3EC258B91D60047FF12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF3EB258B91D60047FF12 /* SceneDelegate.swift */; };
-		44AAF3EE258B91D60047FF12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF3ED258B91D60047FF12 /* ViewController.swift */; };
 		44AAF3F1258B91D60047FF12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AAF3EF258B91D60047FF12 /* Main.storyboard */; };
 		44AAF3F4258B91D60047FF12 /* githubusers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF3F2258B91D60047FF12 /* githubusers.xcdatamodeld */; };
 		44AAF3F6258B91D60047FF12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AAF3F5258B91D60047FF12 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 		44AAF404258B91D60047FF12 /* githubusersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF403258B91D60047FF12 /* githubusersTests.swift */; };
 		44AAF40F258B91D60047FF12 /* githubusersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF40E258B91D60047FF12 /* githubusersUITests.swift */; };
 		44D63CE6258B99B300D77362 /* Icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D63CE5258B99B300D77362 /* Icon_1024.png */; };
+		44D63CF4258B9BE000D77362 /* MainSplitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D63CF3258B9BE000D77362 /* MainSplitVC.swift */; };
+		44D63D0A258BA04400D77362 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D63D09258BA04400D77362 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4446299D258BDE9F000464F0 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		444629AB258BF332000464F0 /* GHUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GHUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		444629BE258BF418000464F0 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
 		44AAF3E6258B91D60047FF12 /* githubusers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubusers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AAF3E9258B91D60047FF12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44AAF3EB258B91D60047FF12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44AAF3ED258B91D60047FF12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44AAF3F0258B91D60047FF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44AAF3F3258B91D60047FF12 /* githubusers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = githubusers.xcdatamodel; sourceTree = "<group>"; };
 		44AAF3F5258B91D60047FF12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 		44AAF40E258B91D60047FF12 /* githubusersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubusersUITests.swift; sourceTree = "<group>"; };
 		44AAF410258B91D60047FF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44D63CE5258B99B300D77362 /* Icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_1024.png; path = ../../../icon/Icon_1024.png; sourceTree = "<group>"; };
+		44D63CF3258B9BE000D77362 /* MainSplitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitVC.swift; sourceTree = "<group>"; };
+		44D63D09258BA04400D77362 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				44AAF425258B978C0047FF12 /* App */,
-				44AAF3ED258B91D60047FF12 /* ViewController.swift */,
-				44AAF3EF258B91D60047FF12 /* Main.storyboard */,
-				44AAF3F2258B91D60047FF12 /* githubusers.xcdatamodeld */,
+				44D63CFB258B9E0800D77362 /* services */,
+				44D63CEE258B9A4B00D77362 /* data */,
+				44D63CED258B9A4100D77362 /* screens */,
 			);
 			path = githubusers;
 			sourceTree = "<group>";
@@ -140,6 +148,42 @@
 				44AAF3F5258B91D60047FF12 /* Assets.xcassets */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		44D63CED258B9A4100D77362 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				44AAF3EF258B91D60047FF12 /* Main.storyboard */,
+				44D63CF3258B9BE000D77362 /* MainSplitVC.swift */,
+				444629BE258BF418000464F0 /* ListVC.swift */,
+				44D63D09258BA04400D77362 /* DetailsVC.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		44D63CEE258B9A4B00D77362 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				44D63CEF258B9A8400D77362 /* coredata */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		44D63CEF258B9A8400D77362 /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				4446299D258BDE9F000464F0 /* CoreDataStack.swift */,
+				44AAF3F2258B91D60047FF12 /* githubusers.xcdatamodeld */,
+				444629AB258BF332000464F0 /* GHUser+CoreDataClass.swift */,
+			);
+			path = coredata;
+			sourceTree = "<group>";
+		};
+		44D63CFB258B9E0800D77362 /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44AAF3EE258B91D60047FF12 /* ViewController.swift in Sources */,
+				4446299E258BDE9F000464F0 /* CoreDataStack.swift in Sources */,
 				44AAF3F4258B91D60047FF12 /* githubusers.xcdatamodeld in Sources */,
+				44D63D0A258BA04400D77362 /* DetailsVC.swift in Sources */,
+				444629BF258BF418000464F0 /* ListVC.swift in Sources */,
 				44AAF3EA258B91D60047FF12 /* AppDelegate.swift in Sources */,
 				44AAF3EC258B91D60047FF12 /* SceneDelegate.swift in Sources */,
+				44D63CF4258B9BE000D77362 /* MainSplitVC.swift in Sources */,
+				444629AD258BF332000464F0 /* GHUser+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bdst.githubusers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -483,7 +531,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bdst.githubusers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -495,7 +543,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3B882445X;
 				INFOPLIST_FILE = githubusersTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -517,7 +565,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3B882445X;
 				INFOPLIST_FILE = githubusersTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,6 +586,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3B882445X;
 				INFOPLIST_FILE = githubusersUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -558,6 +607,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3B882445X;
 				INFOPLIST_FILE = githubusersUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
