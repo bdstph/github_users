@@ -16,6 +16,7 @@
 		44AAF3F9258B91D60047FF12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AAF3F7258B91D60047FF12 /* LaunchScreen.storyboard */; };
 		44AAF404258B91D60047FF12 /* githubusersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF403258B91D60047FF12 /* githubusersTests.swift */; };
 		44AAF40F258B91D60047FF12 /* githubusersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF40E258B91D60047FF12 /* githubusersUITests.swift */; };
+		44D63CE6258B99B300D77362 /* Icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D63CE5258B99B300D77362 /* Icon_1024.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		44AAF40A258B91D60047FF12 /* githubusersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubusersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AAF40E258B91D60047FF12 /* githubusersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubusersUITests.swift; sourceTree = "<group>"; };
 		44AAF410258B91D60047FF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D63CE5258B99B300D77362 /* Icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_1024.png; path = ../../../icon/Icon_1024.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +103,9 @@
 		44AAF3E8258B91D60047FF12 /* githubusers */ = {
 			isa = PBXGroup;
 			children = (
-				44AAF3E9258B91D60047FF12 /* AppDelegate.swift */,
-				44AAF3EB258B91D60047FF12 /* SceneDelegate.swift */,
+				44AAF425258B978C0047FF12 /* App */,
 				44AAF3ED258B91D60047FF12 /* ViewController.swift */,
 				44AAF3EF258B91D60047FF12 /* Main.storyboard */,
-				44AAF3F5258B91D60047FF12 /* Assets.xcassets */,
-				44AAF3F7258B91D60047FF12 /* LaunchScreen.storyboard */,
-				44AAF3FA258B91D60047FF12 /* Info.plist */,
 				44AAF3F2258B91D60047FF12 /* githubusers.xcdatamodeld */,
 			);
 			path = githubusers;
@@ -129,6 +127,19 @@
 				44AAF410258B91D60047FF12 /* Info.plist */,
 			);
 			path = githubusersUITests;
+			sourceTree = "<group>";
+		};
+		44AAF425258B978C0047FF12 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				44AAF3E9258B91D60047FF12 /* AppDelegate.swift */,
+				44AAF3EB258B91D60047FF12 /* SceneDelegate.swift */,
+				44AAF3FA258B91D60047FF12 /* Info.plist */,
+				44AAF3F7258B91D60047FF12 /* LaunchScreen.storyboard */,
+				44D63CE5258B99B300D77362 /* Icon_1024.png */,
+				44AAF3F5258B91D60047FF12 /* Assets.xcassets */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 			files = (
 				44AAF3F9258B91D60047FF12 /* LaunchScreen.storyboard in Resources */,
 				44AAF3F6258B91D60047FF12 /* Assets.xcassets in Resources */,
+				44D63CE6258B99B300D77362 /* Icon_1024.png in Resources */,
 				44AAF3F1258B91D60047FF12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3B882445X;
-				INFOPLIST_FILE = githubusers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/githubusers/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,7 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3B882445X;
-				INFOPLIST_FILE = githubusers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/githubusers/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
