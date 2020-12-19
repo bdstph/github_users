@@ -37,6 +37,8 @@ extension CoreDataStack {
         guard mainContext.hasChanges else { return }
         
         do {
+            mainContext.mergePolicy = NSOverwriteMergePolicy
+            
             try mainContext.save()
         } catch let nserror as NSError {
             fatalError("Unresolved error \(nserror), \(nserror.userInfo)")

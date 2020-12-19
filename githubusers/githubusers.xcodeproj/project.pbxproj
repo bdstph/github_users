@@ -10,6 +10,14 @@
 		4446299E258BDE9F000464F0 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446299D258BDE9F000464F0 /* CoreDataStack.swift */; };
 		444629AD258BF332000464F0 /* GHUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444629AB258BF332000464F0 /* GHUser+CoreDataClass.swift */; };
 		444629BF258BF418000464F0 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444629BE258BF418000464F0 /* ListVC.swift */; };
+		44468FD8258CE43400E2ED7F /* ListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44468FD7258CE43400E2ED7F /* ListTVCell.swift */; };
+		44468FDD258CE45E00E2ED7F /* NormalListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44468FDC258CE45E00E2ED7F /* NormalListTVCell.swift */; };
+		44468FE2258CE47400E2ED7F /* NoteListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44468FE1258CE47400E2ED7F /* NoteListTVCell.swift */; };
+		44468FE7258CE48700E2ED7F /* InvertListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44468FE6258CE48700E2ED7F /* InvertListTVCell.swift */; };
+		44468FEC258CE50C00E2ED7F /* GHUserAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44468FEB258CE50C00E2ED7F /* GHUserAService.swift */; };
+		448C1CC3258E426C00F46922 /* GHUSerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C1CC2258E426C00F46922 /* GHUSerA.swift */; };
+		448C1CCB258E4F0100F46922 /* GHUSerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C1CCA258E4F0100F46922 /* GHUSerB.swift */; };
+		448C1CD3258E52D400F46922 /* GHUserBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C1CD2258E52D400F46922 /* GHUserBService.swift */; };
 		44AAF3EA258B91D60047FF12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF3E9258B91D60047FF12 /* AppDelegate.swift */; };
 		44AAF3EC258B91D60047FF12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF3EB258B91D60047FF12 /* SceneDelegate.swift */; };
 		44AAF3F1258B91D60047FF12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AAF3EF258B91D60047FF12 /* Main.storyboard */; };
@@ -44,6 +52,14 @@
 		4446299D258BDE9F000464F0 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		444629AB258BF332000464F0 /* GHUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GHUser+CoreDataClass.swift"; sourceTree = "<group>"; };
 		444629BE258BF418000464F0 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		44468FD7258CE43400E2ED7F /* ListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTVCell.swift; sourceTree = "<group>"; };
+		44468FDC258CE45E00E2ED7F /* NormalListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalListTVCell.swift; sourceTree = "<group>"; };
+		44468FE1258CE47400E2ED7F /* NoteListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListTVCell.swift; sourceTree = "<group>"; };
+		44468FE6258CE48700E2ED7F /* InvertListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertListTVCell.swift; sourceTree = "<group>"; };
+		44468FEB258CE50C00E2ED7F /* GHUserAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHUserAService.swift; sourceTree = "<group>"; };
+		448C1CC2258E426C00F46922 /* GHUSerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHUSerA.swift; sourceTree = "<group>"; };
+		448C1CCA258E4F0100F46922 /* GHUSerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHUSerB.swift; sourceTree = "<group>"; };
+		448C1CD2258E52D400F46922 /* GHUserBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHUserBService.swift; sourceTree = "<group>"; };
 		44AAF3E6258B91D60047FF12 /* githubusers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubusers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AAF3E9258B91D60047FF12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44AAF3EB258B91D60047FF12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44468FD6258CE3D200E2ED7F /* List View */ = {
+			isa = PBXGroup;
+			children = (
+				444629BE258BF418000464F0 /* ListVC.swift */,
+				44468FD7258CE43400E2ED7F /* ListTVCell.swift */,
+				44468FDC258CE45E00E2ED7F /* NormalListTVCell.swift */,
+				44468FE1258CE47400E2ED7F /* NoteListTVCell.swift */,
+				44468FE6258CE48700E2ED7F /* InvertListTVCell.swift */,
+			);
+			path = "List View";
+			sourceTree = "<group>";
+		};
 		44AAF3DD258B91D60047FF12 = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +183,7 @@
 			children = (
 				44AAF3EF258B91D60047FF12 /* Main.storyboard */,
 				44D63CF3258B9BE000D77362 /* MainSplitVC.swift */,
-				444629BE258BF418000464F0 /* ListVC.swift */,
+				44468FD6258CE3D200E2ED7F /* List View */,
 				44D63D09258BA04400D77362 /* DetailsVC.swift */,
 			);
 			path = screens;
@@ -182,6 +210,10 @@
 		44D63CFB258B9E0800D77362 /* services */ = {
 			isa = PBXGroup;
 			children = (
+				44468FEB258CE50C00E2ED7F /* GHUserAService.swift */,
+				448C1CD2258E52D400F46922 /* GHUserBService.swift */,
+				448C1CC2258E426C00F46922 /* GHUSerA.swift */,
+				448C1CCA258E4F0100F46922 /* GHUSerB.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -317,13 +349,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448C1CD3258E52D400F46922 /* GHUserBService.swift in Sources */,
 				4446299E258BDE9F000464F0 /* CoreDataStack.swift in Sources */,
 				44AAF3F4258B91D60047FF12 /* githubusers.xcdatamodeld in Sources */,
 				44D63D0A258BA04400D77362 /* DetailsVC.swift in Sources */,
+				44468FE7258CE48700E2ED7F /* InvertListTVCell.swift in Sources */,
+				448C1CCB258E4F0100F46922 /* GHUSerB.swift in Sources */,
+				44468FEC258CE50C00E2ED7F /* GHUserAService.swift in Sources */,
 				444629BF258BF418000464F0 /* ListVC.swift in Sources */,
+				448C1CC3258E426C00F46922 /* GHUSerA.swift in Sources */,
+				44468FE2258CE47400E2ED7F /* NoteListTVCell.swift in Sources */,
 				44AAF3EA258B91D60047FF12 /* AppDelegate.swift in Sources */,
+				44468FD8258CE43400E2ED7F /* ListTVCell.swift in Sources */,
 				44AAF3EC258B91D60047FF12 /* SceneDelegate.swift in Sources */,
 				44D63CF4258B9BE000D77362 /* MainSplitVC.swift in Sources */,
+				44468FDD258CE45E00E2ED7F /* NormalListTVCell.swift in Sources */,
 				444629AD258BF332000464F0 /* GHUser+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

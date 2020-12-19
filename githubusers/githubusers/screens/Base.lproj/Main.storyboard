@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NrB-3Y-K9v">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NrB-3Y-K9v">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -58,8 +58,12 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="jVZ-g2-2BT">
                                 <rect key="frame" x="0.0" y="132" width="414" height="730"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <activityIndicatorView key="tableFooterView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" id="TmR-cO-3qw">
+                                    <rect key="frame" x="0.0" y="356" width="414" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </activityIndicatorView>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="normal" rowHeight="100" id="8vC-t3-PLz">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="normal" rowHeight="100" id="8vC-t3-PLz" customClass="NormalListTVCell" customModule="githubusers" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8vC-t3-PLz" id="8hZ-n5-ba7">
@@ -115,8 +119,14 @@
                                                 <constraint firstItem="dra-aB-C4R" firstAttribute="top" secondItem="8hZ-n5-ba7" secondAttribute="top" id="o1b-Iu-QlZ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="detailsLabel" destination="Oqk-4i-6Ah" id="0y9-WJ-tHn"/>
+                                            <outlet property="iconImageView" destination="wcM-Ra-08J" id="Bk2-Nl-ALp"/>
+                                            <outlet property="imageView" destination="wcM-Ra-08J" id="Z5l-FU-LTh"/>
+                                            <outlet property="userNameLabel" destination="eqt-km-m7B" id="sjH-4k-I8Q"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="with_note" rowHeight="100" id="5ts-cS-rVP">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="with_note" rowHeight="100" id="5ts-cS-rVP" customClass="NoteListTVCell" customModule="githubusers" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="128" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5ts-cS-rVP" id="Y2i-K6-f11">
@@ -182,8 +192,13 @@
                                                 <constraint firstItem="QNh-68-geg" firstAttribute="top" secondItem="Y2i-K6-f11" secondAttribute="top" id="mGG-zi-tol"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="detailsLabel" destination="H4e-AN-yOK" id="99k-mF-KQH"/>
+                                            <outlet property="iconImageView" destination="3g8-rv-k1H" id="3Oh-CV-xqb"/>
+                                            <outlet property="userNameLabel" destination="2fU-Fi-MaK" id="nv5-y3-csP"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ava_invert" rowHeight="100" id="aGE-g7-44L">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ava_invert" rowHeight="100" id="aGE-g7-44L" customClass="InvertListTVCell" customModule="githubusers" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="228" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aGE-g7-44L" id="3Vw-MB-l8a">
@@ -239,23 +254,47 @@
                                                 <constraint firstAttribute="trailing" secondItem="HHq-05-FiY" secondAttribute="trailing" id="cb9-w4-0RO"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="detailsLabel" destination="Wdo-if-NQP" id="WXf-SS-e8U"/>
+                                            <outlet property="iconImageView" destination="Yed-hQ-z1b" id="Ged-Mj-hWi"/>
+                                            <outlet property="userNameLabel" destination="0aO-Np-hCB" id="tSR-ns-BP6"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVz-tR-bZB">
+                                <rect key="frame" x="0.0" y="132" width="414" height="29"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="QaH-fd-esZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SmX-rV-7MD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jVZ-g2-2BT" firstAttribute="bottom" secondItem="SmX-rV-7MD" secondAttribute="bottom" id="29G-za-fJL"/>
+                            <constraint firstItem="OVz-tR-bZB" firstAttribute="trailing" secondItem="SmX-rV-7MD" secondAttribute="trailing" id="2Oz-Ri-Vrn"/>
                             <constraint firstItem="jVZ-g2-2BT" firstAttribute="trailing" secondItem="SmX-rV-7MD" secondAttribute="trailing" id="54z-Fq-gUu"/>
                             <constraint firstItem="jVZ-g2-2BT" firstAttribute="leading" secondItem="SmX-rV-7MD" secondAttribute="leading" id="9Dj-bm-Z5U"/>
                             <constraint firstItem="Nnv-Lg-SGb" firstAttribute="leading" secondItem="SmX-rV-7MD" secondAttribute="leading" id="Ass-wy-cKa"/>
                             <constraint firstItem="jVZ-g2-2BT" firstAttribute="top" secondItem="Nnv-Lg-SGb" secondAttribute="bottom" id="DgV-fS-uGS"/>
                             <constraint firstItem="Nnv-Lg-SGb" firstAttribute="trailing" secondItem="SmX-rV-7MD" secondAttribute="trailing" id="FhO-dX-TGe"/>
+                            <constraint firstItem="OVz-tR-bZB" firstAttribute="leading" secondItem="SmX-rV-7MD" secondAttribute="leading" id="h55-CA-y0n"/>
+                            <constraint firstItem="OVz-tR-bZB" firstAttribute="top" secondItem="Nnv-Lg-SGb" secondAttribute="bottom" id="uAu-S8-YlO"/>
                             <constraint firstItem="Nnv-Lg-SGb" firstAttribute="top" secondItem="SmX-rV-7MD" secondAttribute="top" id="vy5-fP-Jod"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="n5c-eM-bhJ"/>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="TmR-cO-3qw" id="bfd-AX-Exd"/>
+                        <outlet property="messageLabel" destination="OVz-tR-bZB" id="R3Z-4J-K7K"/>
+                        <outlet property="usersSearchBar" destination="Nnv-Lg-SGb" id="bm8-Ko-Mh5"/>
+                        <outlet property="usersTableView" destination="jVZ-g2-2BT" id="Dnt-Au-2gi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3c7-hL-obm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
