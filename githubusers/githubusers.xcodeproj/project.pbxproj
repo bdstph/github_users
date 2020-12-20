@@ -18,6 +18,7 @@
 		448C1CC3258E426C00F46922 /* GHUSerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C1CC2258E426C00F46922 /* GHUSerA.swift */; };
 		448C1CCB258E4F0100F46922 /* GHUSerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C1CCA258E4F0100F46922 /* GHUSerB.swift */; };
 		448C1CD3258E52D400F46922 /* GHUserBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C1CD2258E52D400F46922 /* GHUserBService.swift */; };
+		448C1CDB258E96DA00F46922 /* AvatarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C1CDA258E96DA00F46922 /* AvatarService.swift */; };
 		44AAF3EA258B91D60047FF12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF3E9258B91D60047FF12 /* AppDelegate.swift */; };
 		44AAF3EC258B91D60047FF12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AAF3EB258B91D60047FF12 /* SceneDelegate.swift */; };
 		44AAF3F1258B91D60047FF12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AAF3EF258B91D60047FF12 /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 		448C1CC2258E426C00F46922 /* GHUSerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHUSerA.swift; sourceTree = "<group>"; };
 		448C1CCA258E4F0100F46922 /* GHUSerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHUSerB.swift; sourceTree = "<group>"; };
 		448C1CD2258E52D400F46922 /* GHUserBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHUserBService.swift; sourceTree = "<group>"; };
+		448C1CDA258E96DA00F46922 /* AvatarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarService.swift; sourceTree = "<group>"; };
 		44AAF3E6258B91D60047FF12 /* githubusers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubusers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AAF3E9258B91D60047FF12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44AAF3EB258B91D60047FF12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				448C1CD2258E52D400F46922 /* GHUserBService.swift */,
 				448C1CC2258E426C00F46922 /* GHUSerA.swift */,
 				448C1CCA258E4F0100F46922 /* GHUSerB.swift */,
+				448C1CDA258E96DA00F46922 /* AvatarService.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				448C1CC3258E426C00F46922 /* GHUSerA.swift in Sources */,
 				44468FE2258CE47400E2ED7F /* NoteListTVCell.swift in Sources */,
 				44AAF3EA258B91D60047FF12 /* AppDelegate.swift in Sources */,
+				448C1CDB258E96DA00F46922 /* AvatarService.swift in Sources */,
 				44468FD8258CE43400E2ED7F /* ListTVCell.swift in Sources */,
 				44AAF3EC258B91D60047FF12 /* SceneDelegate.swift in Sources */,
 				44D63CF4258B9BE000D77362 /* MainSplitVC.swift in Sources */,
